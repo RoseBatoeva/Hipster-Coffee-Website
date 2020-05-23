@@ -3,3 +3,58 @@ html {  box-sizing: border-box;}*, *:before, *:after {  box-sizing: inherit;}
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+.menu {
+    padding: 10px;
+    background-color: #F8F8F8; 
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    width: 70px;
+    margin-right: auto; /*разделение logo от navbar */
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item {
+    padding: 0.5rem;
+}
+.nav-link {
+    text-decoration: none; 
+    color: grey;
+}
+.nav-link:hover {
+    color: black;
+}
+/*Footer section*/
+footer {
+    background-color: #686868;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.foot-item {
+    list-style-type: none;
+    padding: 0.5rem;
+    display: inline;
+}
+.name-coffee {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.foot-link {
+    color: #007fff;
+}
+
+@media screen and (max-width: 480px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-img {
+        width: 70px;
+        align-items: auto;
+        margin: auto;  
+    }
