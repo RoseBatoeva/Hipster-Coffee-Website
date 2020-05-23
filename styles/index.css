@@ -1,0 +1,75 @@
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;  
+    margin: 0; /*удаление отступов от краев страницы*/
+}
+/*Navigation Bar*/
+.menu {
+    background-color:#F8F8F8; 
+}
+.menu-content {
+    width: 70%;
+    margin: 0 auto;
+}
+.logo-image {
+    width: 80px;
+    margin-top: 1rem;
+}
+.navbar {
+    display:inline-block; /*перемещение navbar в одну строку с img*/
+    position: relative;
+    left: 35rem;
+}   
+.nav-item {
+    list-style-type: none; /*удаление точек в li*/
+    display:inline; /*отображение li в одной строке*/
+    margin-left: 0.5rem; 
+}
+.nav-link {
+    text-decoration: none; /*удаление подчеркивания ссылок*/
+    color: grey;
+}
+.nav-link:hover {
+    color: black;
+}
+/*Middle Section*/
+.middle-section {
+    width: 70%;
+    margin: 0 auto;
+}
+.counter {
+    width: 100%;
+}
+/*Contacts Section*/
+.contacts {
+    width: 77%;
+    margin: 0 auto;
+}
+.contacts-box {
+
+    display: inline-block;
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+}
+.map {
+    text-align: center;
+}
+/*Footer section*/
+footer {
+    text-align: center;
+    background-color: #686868;
+    padding: 4% 9%;
+    color: white;
+}
+.foot-item {
+    list-style-type: none;
+    display: inline;
+    margin: 1rem;
+}
+.name-coffee {
+    font-weight: bold;
+}
+.foot-link {
+    color: #007fff;
+}
+
+
