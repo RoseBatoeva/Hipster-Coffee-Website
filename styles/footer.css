@@ -1,0 +1,20 @@
+html {  box-sizing: border-box;}*, *:before, *:after {  box-sizing: inherit;}
+
+.footer {
+    background-color: #686868;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.foot-item {
+    list-style-type: none;
+    padding: 0.5rem;
+    display: inline;
+}
+.footer-title {
+    font-weight: bold;
+    margin-top: 50px;
+}
+.foot-link {
+    color: #007fff;
+} 

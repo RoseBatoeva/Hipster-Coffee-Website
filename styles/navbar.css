@@ -1,0 +1,38 @@
+html {  box-sizing: border-box;}*, *:before, *:after {  box-sizing: inherit;}
+
+@media screen and (max-width: 576px){
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-img {
+        width: 70px;
+        align-items: auto;
+        margin: auto;  
+    }
+}  
+.navbar {
+    padding: 10px;
+    background-color: #F8F8F8; 
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    width: 70px;
+    margin-right: auto; /*разделение logo от navbar*/
+}
+.navbar-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-menu-item {
+    padding: 0.5rem;
+}
+.nav-link {
+    text-decoration: none; 
+    color: grey;
+}
+.nav-link:hover {
+    color: black;
+}
