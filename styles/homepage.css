@@ -25,7 +25,6 @@
         margin-right: auto;
         flex-flow: column nowrap;
     }
-    
     .text {
         display: inline;
     }     
@@ -37,7 +36,7 @@
 
     .contacts-box {
         align-items: flex-start;
-        margin-left: 2rem;
+        margin-right: 2rem;  
     }
 
     }
