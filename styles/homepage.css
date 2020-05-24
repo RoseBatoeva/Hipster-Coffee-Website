@@ -25,6 +25,12 @@
         margin-right: auto;
         flex-flow: column nowrap;
     }
+    
+    .homepage-text {
+        margin: 20px 0;
+        
+    }
+
     .text {
         display: inline;
     }     
@@ -36,7 +42,7 @@
 
     .contacts-box {
         align-items: flex-start;
-        margin-right: 2rem;  
+        margin-right: 6rem;  
     }
 
     }
