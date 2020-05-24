@@ -3,7 +3,19 @@ html {  box-sizing: border-box;}*, *:before, *:after {  box-sizing: inherit;}
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-.menu {
+@media screen and (max-width: 576px){
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-img {
+        width: 70px;
+        align-items: auto;
+        margin: auto;  
+    }
+}  
+.navbar {
     padding: 10px;
     background-color: #F8F8F8; 
     display: flex;
@@ -11,13 +23,13 @@ body {
 }
 .logo-img {
     width: 70px;
-    margin-right: auto; /*разделение logo от navbar */
+    margin-right: auto; /*разделение logo от navbar*/
 }
-.navbar {
+.navbar-menu {
     display: flex;
     justify-content: flex-end;
 }
-.nav-item {
+.navbar-menu-item {
     padding: 0.5rem;
 }
 .nav-link {
@@ -28,7 +40,7 @@ body {
     color: black;
 }
 /*Footer section*/
-footer {
+.footer {
     background-color: #686868;
     padding: 10px;
     color: white;
@@ -39,22 +51,10 @@ footer {
     padding: 0.5rem;
     display: inline;
 }
-.name-coffee {
+.footer-title {
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .foot-link {
     color: #007fff;
-}
-
-@media screen and (max-width: 480px){
-    .menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .logo-img {
-        width: 70px;
-        align-items: auto;
-        margin: auto;  
-    }
+} 
