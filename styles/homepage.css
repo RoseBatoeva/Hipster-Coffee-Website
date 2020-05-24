@@ -1,20 +1,19 @@
 .homepage-section {
-    padding-left: 20px;  
-    padding-right: 20px;
+    padding-left: 20px;  /*расстояние между текстом и краями страницы в телефоне */
+    padding-right: 20px; /*расстояние между текстом и краями страницы в телефоне */
 }
 .counter {
     width: 100%;
 }
 
 .contacts {
-    padding-left: 20px;  
-    padding-right: 20px; 
+    padding-left: 20px;  /*расстояние между текстом и краями страницы в телефоне */
+    padding-right: 20px; /*расстояние между текстом и краями страницы в телефоне */
 }
 .map {
-    padding-left: 20px;  
-    padding-right: 20px; 
+    padding-left: 20px;  /*расстояние между текстом и краями страницы в телефоне */
+    padding-right: 20px; /*расстояние между текстом и краями страницы в телефоне */
     display: flex;
-    justify-content: center;
     margin-bottom: -2rem;
 } 
 
@@ -26,16 +25,13 @@
         margin-right: auto;
         flex-flow: column nowrap;
     }
-    .homepage-text {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+    
     .text {
         display: inline;
     }     
 
     .contacts {
-        display: flex;
+        display: flex; 
         flex-flow: row;
     }
 
