@@ -21,3 +21,16 @@
   width: 100%;
   margin-bottom: -2rem;
 }
+
+@media (min-width: 576px) {
+.coffee-menu-sections {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+.coffee-menu-section {
+    margin-bottom: 54px;
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+}
