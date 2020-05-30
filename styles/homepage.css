@@ -1,48 +1,26 @@
-.homepage-section {
-    padding-left: 20px;  /*расстояние между текстом и краями страницы в телефоне */
-    padding-right: 20px; /*расстояние между текстом и краями страницы в телефоне */
-}
 .counter {
     width: 100%;
 }
 
-.contacts {
-    padding-left: 20px;  /*расстояние между текстом и краями страницы в телефоне */
-    padding-right: 20px; /*расстояние между текстом и краями страницы в телефоне */
-}
 .map {
-    padding-left: 20px;  /*расстояние между текстом и краями страницы в телефоне */
-    padding-right: 20px; /*расстояние между текстом и краями страницы в телефоне */
     display: flex;
+    width: 100%;
     margin-bottom: -2rem;
 } 
 
 @media (min-width: 576px){
-    .homepage {
-        display: flex;
-        max-width: 960px;
-        margin-left: auto;
-        margin-right: auto;
-        flex-flow: column nowrap;
-    }
-    
     .homepage-text {
         margin: 20px 0;
-        
     }
-
     .text {
         display: inline;
     }     
-
     .contacts {
         display: flex; 
         flex-flow: row;
     }
-
     .contacts-box {
         align-items: flex-start;
         margin-right: 6rem;  
     }
-
     }
