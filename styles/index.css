@@ -13,14 +13,9 @@ body {
 .main {
   padding-left: 20px;
   padding-right: 20px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (min-width: 576px) {
-  .main {
-    display: flex;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    flex-flow: column nowrap;
-  }
-}
+

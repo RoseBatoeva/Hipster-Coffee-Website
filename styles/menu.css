@@ -1,0 +1,23 @@
+.coffee-menu-sections {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.coffee-menu-section {
+  margin-bottom: 54px;
+}
+
+.coffee-menu-section:last-of-type {
+  margin-bottom: 0;
+}
+
+.coffee-menu-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.espresso-detail-img {
+  width: 100%;
+  margin-bottom: -2rem;
+}
