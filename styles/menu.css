@@ -1,0 +1,21 @@
+.coffee-type {
+    display: flex;
+    justify-content: space-between;
+}
+.coffee-price {
+    flex-flow: row nowrap;  
+    
+}
+@media (min-width: 576px) {
+    .coffee-name {
+        display: inline;
+    }
+    .coffee-price-section {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+
+    }
+   
+  }
+  
