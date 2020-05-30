@@ -1,18 +1,18 @@
 .footer {
-    background-color: #686868;
-    padding: 50px;
-    color: white;
-    text-align: center;
+  background-color: #686868;
+  padding: 50px;
+  color: white;
+  text-align: center;
 }
 .footer-item {
-    list-style-type: none;
-    padding: 0.5rem;
-    display: inline;
+  list-style-type: none;
+  padding: 0.5rem;
+  display: inline;
 }
 .footer-title {
-    font-weight: bold;
-    margin-top: 50px;
+  font-weight: bold;
+  margin-top: 50px;
 }
 .footer-link {
-    color: #007fff;
-} 
+  color: #007fff;
+}

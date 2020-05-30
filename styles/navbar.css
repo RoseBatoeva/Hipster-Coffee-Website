@@ -1,40 +1,40 @@
 .navbar {
-    background-color: #f8f8f8;
-  }
-  
-  .navbar-container {
-    padding: 10px;
-    display: flex;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-  }
+  background-color: #f8f8f8;
+}
+
+.navbar-container {
+  padding: 10px;
+  display: flex;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
 
 .logo-img {
-    width: 90px;
+  width: 90px;
 }
 .navbar-menu {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 .navbar-menu-item {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 .nav-link {
-    text-decoration: none; 
-    color: grey;
+  text-decoration: none;
+  color: grey;
 }
 .nav-link:hover {
-    color: black;
+  color: black;
 }
 
-@media (min-width: 576px){
-    .navbar-container {
-        flex-flow: row nowrap;
-        justify-content: space-between;
-    }
-    }
+@media (min-width: 576px) {
+  .navbar-container {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+}
