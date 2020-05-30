@@ -3,7 +3,6 @@ html {  box-sizing: border-box;}*, *:before, *:after {  box-sizing: inherit;}
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-
 .main {
     padding-left: 20px;  
     padding-right: 20px;
