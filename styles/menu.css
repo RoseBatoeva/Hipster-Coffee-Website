@@ -23,15 +23,15 @@
 }
 
 @media (min-width: 576px) {
-    .coffee-menu-sections {
-      display: flex;
-      width: 100%;
-      max-height: 1000px;
-      flex-flow: column wrap;
-      align-content: stretch;
-    }
-    .coffee-menu-section {
-      margin-bottom: 54px;
-      max-width: 40%;
-    }
+  .coffee-menu-sections {
+    display: flex;
+    width: 100%;
+    max-height: 1000px;
+    flex-flow: column wrap;
+    align-content: stretch;
   }
+  .coffee-menu-section {
+    margin-bottom: 54px;
+    max-width: 40%;
+  }
+}
