@@ -1,0 +1,32 @@
+.header-discription {
+    line-height: 1.5;
+}
+.header-note {
+    font-weight: 500;
+}
+.coffee-card {
+    width: 50%; 
+    margin-bottom: 30px;
+}
+
+.coffee-card-heading {
+    background-color: #f8f8f8;
+    padding: 15px;  
+}
+.coffee-pic {
+    width: 100%;
+}
+.coffee-card-discription {
+    background-color: #F8F9F9 ;
+    padding: 15px;
+    margin: 0; 
+}
+
+.coffee-card-discription-1 {
+    font-style: italic;
+    font-weight: 500;
+}
+.coffee-card-discription-2 {
+    font-weight: 500;
+    line-height: 1.5;
+}
