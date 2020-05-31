@@ -29,16 +29,20 @@
       max-height: 1000px;
       flex-flow: column wrap;
       align-content: stretch;
+      
     }
     .coffee-menu-section {
       margin-bottom: 54px;
       max-width: 40%;
+      
     }
     .coffee-menu-section-1 {
       order: 1;
+      
     }
     .coffee-menu-section-2 {
       order: 3;
+      margin-bottom: 16px;
     }
     .coffee-menu-section-3 {
       order: 4;
