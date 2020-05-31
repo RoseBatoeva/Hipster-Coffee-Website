@@ -23,34 +23,31 @@
 }
 
 @media (min-width: 576px) {
-    .coffee-menu-sections {
-      display: flex;
-      width: 100%;
-      max-height: 1000px;
-      flex-flow: column wrap;
-      align-content: stretch;
-      
-    }
-    .coffee-menu-section {
-      margin-bottom: 54px;
-      max-width: 40%;
-      
-    }
-    .coffee-menu-section-1 {
-      order: 1;
-      
-    }
-    .coffee-menu-section-2 {
-      order: 3;
-      margin-bottom: 16px;
-    }
-    .coffee-menu-section-3 {
-      order: 4;
-    }
-    .coffee-menu-section-4 {
-      order: 2;
-    }
-    .coffee-menu-section-5 {
-      order: 5;
-    }
+  .coffee-menu-sections {
+    display: flex;
+    width: 100%;
+    max-height: 1000px;
+    flex-flow: column wrap;
+    align-content: space-between;
   }
+  .coffee-menu-section {
+    margin-bottom: 54px;
+    width: 40%;
+  }
+  .coffee-menu-section-1 {
+    order: 1;
+  }
+  .coffee-menu-section-2 {
+    margin-bottom: 16px;
+    order: 3;
+  }
+  .coffee-menu-section-3 {
+    order: 4;
+  }
+  .coffee-menu-section-4 {
+    order: 2;
+  }
+  .coffee-menu-section-5 {
+    order: 5;
+  }
+}
