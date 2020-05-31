@@ -1,32 +1,37 @@
-.header-discription {
+.subtitle {
     line-height: 1.5;
 }
-.header-note {
+.note {
     font-weight: 500;
+}
+.coffee-cards {
+    margin-bottom: 30px;
 }
 .coffee-card {
     /* width: 50%;  */
     margin-bottom: 30px;
 }
 
+.coffee-card:last-of-type {
+    margin-bottom: 0;
+}
+
 .coffee-card-heading {
     background-color: #f8f8f8;
     padding: 15px;  
 }
-.coffee-pic {
+.coffee-card-img {
     width: 100%;
 }
-.coffee-card-discription {
+.coffee-card-description-container {
     background-color: #F8F9F9 ;
     padding: 15px;
     margin: 0; 
 }
 
-.coffee-card-discription-1 {
+.coffee-card-description-italic {
     font-style: italic;
-    font-weight: 500;
 }
-.coffee-card-discription-2 {
-    font-weight: 500;
+.coffee-card-description {
     line-height: 1.5;
 }
