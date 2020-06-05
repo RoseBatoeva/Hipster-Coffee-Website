@@ -1,36 +1,71 @@
 .subtitle {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 .note {
-    font-weight: 500;
+  font-weight: 500;
 }
 .coffee-cards {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .coffee-card {
-    margin-bottom: 30px;
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 30px;
+  flex: 1 1 calc(50% - 6%);
 }
-
 .coffee-card:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
+}
+.coffee-card-header {
+  background-color: #f8f8f8;
+  padding-top: 25%;
+  position: relative;
+  flex: 0 0 auto;
 }
 
 .coffee-card-heading {
-    background-color: #f8f8f8;
-    padding: 15px;  
-}
-.coffee-card-img {
-    width: 100%;
-}
-.coffee-card-description-container {
-    background-color: #F8F9F9 ;
-    padding: 15px;
-    margin: 0; 
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin: 0;
+  transform: translateY(-50%);
+  padding: 0 16px;
 }
 
+.coffee-card-img {
+  width: 100%;
+  flex: 0 0 auto;
+}
+.coffee-card-description-container {
+  background-color: #f8f9f9;
+  padding: 15px;
+  margin: 0;
+  flex: 1 1 auto;
+}
 .coffee-card-description-italic {
-    font-style: italic;
+  font-style: italic;
 }
 .coffee-card-description {
-    line-height: 1.5;
+  line-height: 1.5;
+}
+
+@media (min-width: 576px) {
+  .coffee-cards-gutter-vertical {
+    width: 6%;
+  }
+  .coffee-cards-gutter-horizontal {
+    width: 100%;
+    padding-top: 6%; /* when padding-bottom or top are in percentage, this is calculated form the width of the container. */
+  }
+  .coffee-cards {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: stretch;
+  }
+  .coffee-card {
+    margin-bottom: 0; /*margin-bottom is more specific than margin. So margin will not override margin-bottom. So use margin-bottom instead of margin*/
+  }
 }
