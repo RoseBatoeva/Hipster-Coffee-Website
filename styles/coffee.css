@@ -19,14 +19,14 @@
 .coffee-card:last-of-type {
   margin-bottom: 0;
 }
-.coffee-card-heading {
+.coffee-card-header {
   background-color: #f8f8f8;
   padding-top: 25%;
   position: relative;
   flex: 0 0 auto;
 }
 
-.coffee-card-heading h2 {
+.coffee-card-heading {
   position: absolute;
   width: 100%;
   top: 50%;
