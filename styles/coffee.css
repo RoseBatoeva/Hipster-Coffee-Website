@@ -10,11 +10,9 @@
 .coffee-card {
     margin-bottom: 30px;
 }
-
 .coffee-card:last-of-type {
     margin-bottom: 0;
 }
-
 .coffee-card-heading {
     background-color: #f8f8f8;
     padding: 15px;  
@@ -27,7 +25,6 @@
     padding: 15px;
     margin: 0; 
 }
-
 .coffee-card-description-italic {
     font-style: italic;
 }
@@ -47,9 +44,10 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: stretch;
 }
 .coffee-card {
     flex: 1 1 calc(50% - 6%);
-    margin-bottom: 0; /*margin-bottom is more specific than margin. So margin will not override margin-bottom. */
+    margin-bottom: 0; /*margin-bottom is more specific than margin. So margin will not override margin-bottom. So use margin-bottom instead of margin*/
 }
 }
