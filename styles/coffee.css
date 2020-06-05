@@ -43,11 +43,18 @@
 .coffee-cards {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     align-items: stretch;
 }
 .coffee-card {
+    display: flex;
+    flex-flow: column nowrap;
     flex: 1 1 calc(50% - 6%);
     margin-bottom: 0; /*margin-bottom is more specific than margin. So margin will not override margin-bottom. So use margin-bottom instead of margin*/
 }
+
+
+
+
+
+
 }
