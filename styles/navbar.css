@@ -27,7 +27,16 @@
 .nav-link {
   text-decoration: none;
   color: grey;
+  font-size: 16px; 
 }
+
+.nav-link-active {
+  font-weight: bold;
+  font-size: 17px; 
+  color: black;
+  pointer-events: none;
+}
+
 .nav-link:hover {
   color: black;
 }
