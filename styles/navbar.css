@@ -28,6 +28,14 @@
   text-decoration: none;
   color: grey;
 }
+
+.nav-link-active {
+  font-weight: bold;
+  font-size: 1.1rem; 
+  color: black;
+  pointer-events: none;
+}
+
 .nav-link:hover {
   color: black;
 }
