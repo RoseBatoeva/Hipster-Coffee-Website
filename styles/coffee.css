@@ -34,3 +34,23 @@
 .coffee-card-description {
     line-height: 1.5;
 }
+
+@media (min-width: 576px) {
+.coffee-cards-gutter-vertical {
+    background-color: royalblue;
+    width: 6%;
+}
+.coffee-cards-gutter-horizontal {
+    background-color: rosybrown;
+    width: 100%;  
+}
+.coffee-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.coffee-card {
+    width: 47%;
+    margin: 0;
+}
+}
