@@ -68,4 +68,13 @@
   .coffee-card {
     margin-bottom: 0; /*margin-bottom is more specific than margin. So margin will not override margin-bottom. So use margin-bottom instead of margin*/
   }
+  .coffee-card:hover {
+    transform: translateY(-7px); /*It doesn't work*/
+    transform: scale(1.02);
+    transition-timing-function: ease-in-out;/*It doesn't work*/
+    transition-duration: 1s;
+    
+  }
+
+
 }
