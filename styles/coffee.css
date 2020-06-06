@@ -25,7 +25,6 @@
   position: relative;
   flex: 0 0 auto;
 }
-
 .coffee-card-heading {
   position: absolute;
   width: 100%;
@@ -34,7 +33,6 @@
   transform: translateY(-50%);
   padding: 0 16px;
 }
-
 .coffee-card-img {
   width: 100%;
   flex: 0 0 auto;
@@ -69,10 +67,8 @@
     margin-bottom: 0; /*margin-bottom is more specific than margin. So margin will not override margin-bottom. So use margin-bottom instead of margin*/
   }
   .coffee-card:hover {
-    transform: translateY(-7px); /*It doesn't work*/
-    transform: scale(1.02);
-    transition-timing-function: ease-in-out;/*It doesn't work*/
-    transition-duration: 1s;
+    transform: scale(1.04) translateY(-7px); 
+    transition: all .2s ease-in-out;
     
   }
 
