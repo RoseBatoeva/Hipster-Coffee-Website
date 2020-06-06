@@ -3,6 +3,7 @@
 }
 .note {
   font-weight: 500;
+  margin-bottom: 50px;
 }
 .coffee-cards {
   margin-bottom: 30px;
@@ -65,9 +66,10 @@
   }
   .coffee-card {
     margin-bottom: 0; /*margin-bottom is more specific than margin. So margin will not override margin-bottom. So use margin-bottom instead of margin*/
+    transition: all .2s ease-in-out;
   }
   .coffee-card:hover {
-    transform: scale(1.04) translateY(-7px); 
+    transform: scale(1.04) translateY(-12px); 
     transition: all .2s ease-in-out;
     
   }
