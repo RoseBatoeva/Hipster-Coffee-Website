@@ -1,7 +1,9 @@
 .navbar {
   background-color: #f8f8f8;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
-
 .navbar-container {
   padding: 10px;
   display: flex;
@@ -12,7 +14,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .logo-img {
   width: 90px;
 }
@@ -29,18 +30,18 @@
   color: grey;
   font-size: 16px; 
 }
-
 .nav-link-active {
   font-weight: bold;
   font-size: 17px; 
   color: black;
   pointer-events: none;
 }
-
 .nav-link:hover {
   color: black;
 }
-
+.navbar-shadow {
+  box-shadow: 0px 9px 11px -4px rgba(0,0,0,0.4);;
+}
 @media (min-width: 576px) {
   .navbar-container {
     flex-flow: row nowrap;

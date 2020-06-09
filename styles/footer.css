@@ -1,18 +1,13 @@
 .footer {
   background-color: #686868;
-  padding: 50px;
+  padding: 30px;
   color: white;
   text-align: center;
-}
-.footer-item {
-  list-style-type: none;
-  padding: 0.5rem;
-  display: inline;
 }
 .footer-title {
   font-weight: bold;
   margin-top: 50px;
 }
 .footer-link {
-  color: #007fff;
+  color: lightskyblue;
 }
