@@ -6,13 +6,17 @@
 //   add classShadow
 // }
 const navbar=('.navbar');
-const navbarOffsetTop=('navbar.offset().top');
-if (navbarOffsetTop!==0 ) {
-    $(".navbar").addClass( "navbar-shadow" );
-} 
-if (navbarOffsetTop===0 && $(".navbar").toggleClass( "navbar-shadow" )){
-    $(".navbar").removeClass( "navbar-shadow" );
-} 
+function toggleNavbarShadow() {
+    const navbarOffsetTop=('navbar.offset().top');
+    if (navbarOffsetTop!==0 && !navbar.hasClass('navbar-shadow')) {
+        $(".navbar").addClass( "navbar-shadow" );
+    } 
+    if (navbarOffsetTop===0 && navbar.hasClass("navbar-shadow")){
+        $(".navbar").removeClass( "navbar-shadow" );
+    } 
+    }
+    toggleNavbarShadow();
+    window.addEventListener('scroll',toggleNavbarShadow)
 
 
 
