@@ -5,9 +5,9 @@
 // if(navbar distance !== 0 && navbar doesn't have class shadow) {
 //   add classShadow
 // }
-const navbar=('.navbar');
+const navbar=$('.navbar');
 function toggleNavbarShadow() {
-    const navbarOffsetTop=('navbar.offset().top');
+    const navbarOffsetTop=navbar.offset().top;
     if (navbarOffsetTop!==0 && !navbar.hasClass('navbar-shadow')) {
         $(".navbar").addClass( "navbar-shadow" );
     } 
@@ -19,12 +19,7 @@ function toggleNavbarShadow() {
     window.addEventListener('scroll',toggleNavbarShadow)
 
 
-
-
-
-
-
-
+////////////////////////////////
 // const navbar=('.navbar');
 // function toggleNavbarShadow() {
 //     $(".navbar").toggleClass( "navbar-shadow" );
@@ -32,8 +27,7 @@ function toggleNavbarShadow() {
 // toggleNavbarShadow();
 // window.addEventListener('scroll',toggleNavbarShadow)
 
-
-
+////////////////////////////////
 
 //    window.addEventListener('scroll',function () {
 //     $(".navbar").toggleClass( "navbar-shadow" );
