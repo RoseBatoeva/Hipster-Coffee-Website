@@ -17,7 +17,7 @@
   }
   .contacts {
     display: flex;
-    flex-flow: row;
+    flex-flow: row nowrap;
   }
   .contacts-box {
     align-items: flex-start;
