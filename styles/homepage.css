@@ -1,11 +1,14 @@
 .counter {
   width: 100%;
+  margin-bottom: 20px;
 }
-
 .map {
   display: flex;
   width: 100%;
   margin-bottom: -2rem;
+}
+.label {
+  font-size: 17px;
 }
 
 @media (min-width: 576px) {
