@@ -51,7 +51,7 @@
             <img class="counter" src="img/counter.jpg" alt="counter-img">
         </section>
         <section class="contacts">
-            <form class="form">
+            <form class="form" onclick="e => {e.preventDefault(); return false;}">
                 <label for="location">Choose the city:</label>
                 <select id="location" name="location">
                     <option value="San Francisco">San Francisco</option>
