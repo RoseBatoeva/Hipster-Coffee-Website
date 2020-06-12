@@ -10,3 +10,23 @@ function toggleNavbarShadow() {
     }
     toggleNavbarShadow();
     window.addEventListener('scroll',toggleNavbarShadow);
+
+const select =$('select');
+const showSelectedLocation = () => {
+    const selectedLocation = select.children("option:selected").val();
+    const locations = $(".location");
+    locations.each((index, location) => {
+      if ($(location).attr("id") === selectedLocation) {
+        $(location).removeClass("location-hidden");
+      }
+      if ($(location).attr("id") !== selectedLocation) {
+        $(location).addClass("location-hidden");
+      }
+    });
+  };
+showSelectedLocation();
+$('select').change(showSelectedLocation);
+
+
+
+
