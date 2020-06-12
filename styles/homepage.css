@@ -13,8 +13,9 @@
 .select {
   width: 160px;
 }
-
-
+.location-hidden {
+  display: none;
+}
 @media (min-width: 576px) {
   .homepage-text {
     margin: 20px 0;
