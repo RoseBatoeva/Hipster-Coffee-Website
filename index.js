@@ -15,18 +15,15 @@ const select =$('select');
 const showSelectedLocation =() =>{
     const selectedLocation = select.children("option:selected").val();
     const locations =$('.location');
-    if (selectedLocation==='san-francisco'){
-        $(this.value).removeClass('location-hidden');
-        $('.location').addClass('location-hidden');
-    }
-    if (selectedLocation==='new-york'){
-        $(this.value).removeClass('location-hidden');
-        $('.location').addClass('location-hidden');
-    }
-    if (selectedLocation==='los-angeles'){
-        $(this.value).removeClass('location-hidden');
-        $('.location').addClass('location-hidden');
-    }
+    locations.forEach(location => {
+        if(location.attr('id') === selectedLocation && location.hasClass('location-hidden')) {
+          location.removeClass('location-hidden');
+        }
+         if(location.attr('id') !== selectedLocation && !location.hasClass('location-hidden')) {
+          location.addClass('location-hidden');
+        }  
+    })
+      
 }
 showSelectedLocation();
 $('select').change(showSelectedLocation);
