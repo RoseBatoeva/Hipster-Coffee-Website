@@ -14,6 +14,7 @@ function toggleNavbarShadow() {
 const select =$('select');
 const showSelectedLocation =() =>{
     const selectedLocation = select.children("option:selected").val();
+    const locations =$('.location');
     if (selectedLocation==='san-francisco'){
         $(this.value).removeClass('location-hidden');
         $('.location').addClass('location-hidden');
