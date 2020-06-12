@@ -15,7 +15,7 @@ const select =$('select');
 const showSelectedLocation =() =>{
     const selectedLocation = select.children("option:selected").val();
     const locations =$('.location');
-    locations.forEach(location => {
+    locations.each(location=>{
         if(location.attr('id') === selectedLocation && location.hasClass('location-hidden')) {
           location.removeClass('location-hidden');
         }
