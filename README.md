@@ -1,1 +1,1 @@
-https://github.com/RoseBatoeva/Hipster-Coffee-Website.git
+https://rosebatoeva.github.io/Hipster-Coffee-Website/
